@@ -1,5 +1,5 @@
 <?php
-class Database{
+class database{
  
     // specify your own database credentials
     private $host = "localhost:81";
