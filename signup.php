@@ -6,10 +6,10 @@ include_once '../config/database.php';
 // instantiate user object
 include_once '../object/user.php';
  
-$database = new Database();
+$database = new database();
 $db = $database->getConnection();
  
-$user = new User($db);
+$user = new user($db);
  
 // set user property values
 $user->fname = $_POST['fname'];
