@@ -1,0 +1,3 @@
+phpmyadmin link for database
+
+http://localhost:81/phpmyadmin/tbl_structure.php?server=1&db=sw2_project&table=user
