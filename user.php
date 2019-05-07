@@ -1,5 +1,5 @@
 <?php
-class User{
+class user{
  
     // database connection and table name
     private $conn;
