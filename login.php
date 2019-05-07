@@ -5,11 +5,11 @@ include_once '../config/database.php';
 include_once '../object/user.php';
  
 // get database connection
-$database = new Database();
+$database = new database();
 $db = $database->getConnection();
  
 // prepare user object
-$user = new User($db);
+$user = new user($db);
 
 // set ID property of user to be edited
 $user->u_email = isset($_GET['u_email']) ? $_GET['u_email'] : die();
